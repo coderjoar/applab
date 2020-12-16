@@ -70,6 +70,7 @@
 	.features {
 	    padding-top: 40px;
 	}
+	
 	.f_header {
 	    width: 100%;
 	    margin-bottom: 35px;
@@ -145,7 +146,7 @@
 	    height: 42px;
 	}
 
-	.mtbb{
+	.mtbb {
 		margin-bottom: 35px;
 	}
 
@@ -262,12 +263,14 @@
 	    margin-bottom: 10px;
 	}
 
-
-
-
+	.copyright h4 {
+	    margin-bottom: 60px;
+	}
 
 
 }
+
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 
@@ -473,6 +476,10 @@
 	.f_menu ul li a {
 	    padding: 0 15px;
 	    
+	}
+
+	.copyright h4 {
+	    margin-bottom: 60px;
 	}
 
 
