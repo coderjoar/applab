@@ -181,10 +181,10 @@
             <div class="col-lg col-md col-sm col-4">
               <img src="images/sp3.png" class="img-fluid l_img hoverr" alt="applab">
             </div>
-            <div class="col-lg col-md d-md-block d-none">
+            <div class="col-lg col-md col-sm col-6">
               <img src="images/sp4.png" class="img-fluid l_img hoverr" alt="applab">
             </div>
-            <div class="col-lg col-md d-md-block d-none">
+            <div class="col-lg col-md col-sm col-6">
               <img src="images/sp5.png" class="img-fluid l_img hoverr" alt="applab">
             </div>
         </div>
@@ -363,14 +363,23 @@
           <div class="top">
             <h2 class="h_cap">Get awesome features, without extra charges</h2>
             <p>The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
-
-            <!-- button group -->
-
-            <div class="btn-group" role="group" aria-label="Basic outlined example">
-              <button type="button" class="btn btn_ccc">Monthly</button>
-              <button type="button" class="btn btn_ccc">Annually</button>
-            </div>
           </div>
+        </div>
+      </div>
+
+
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+            <div class="nb">
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active btn btn_ccc " id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Monthly</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link  btn btn_ccc" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Annually</a>
+            </li>
+          </ul>
+            </div>
         </div>
       </div>
 
@@ -378,7 +387,13 @@
 
 
 
-      <div class="row justify-content-center">
+      
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+
+
+    <div class="row justify-content-center">
         <!-- table 1 -->
         <div class="  col-xl-3 col-lg-3 col-md-4 col-10 text-center hoverr mtbb">
           <!-- price 1 -->
@@ -432,8 +447,83 @@
 
         </div>
       </div>
+    
+
+
+
+
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+
+
+    <div class="row justify-content-center">
+        <!-- table 1 -->
+        <div class="  col-xl-3 col-lg-3 col-md-5 col-10 text-center hoverr mtbb">
+          <!-- price 1 -->
+
+          <div class="card c_top">
+            <div class="card-body">
+              <h5 class="card-title ph5">$99<span>/Annually</span></h5>
+              <h6 class="card-subtitle mb-2 s1">Business Class</h6>
+              <h6 class="card-subtitle mb-2 s2">For small teams or office</h6>
+            </div>
+          </div>
+          <div class="card c_topb">
+            <div class="card-body">
+              <h4>Drag & Drop Builder <br>
+                  1,000's of Templates <br>
+                  Blog Support Tools <br>
+                  eCommerce Store <br>
+              </h4>
+
+              <button type="button" class="btn btn_cp">Subscribe for free</button>
+
+            </div>      
+          </div>
+
+        </div>
+        <!-- table 2 -->
+        <div class="col-xl-3 col-lg-3 col-md-5 col-10 text-center hoverr">
+          <!-- price 1 -->
+
+          <div class="card c_top2">
+            <div class="card-body">
+              <h5 class="card-title ph5">$199<span>/Annually</span></h5>
+              <h6 class="card-subtitle mb-2 s1">Pro master</h6>
+              <h6 class="card-subtitle mb-2 s2">For small teams or office</h6>
+            </div>
+          </div>
+          <div class="card c_topb2">
+            <div class="card-body">
+              <h4>Drag & Drop Builder <br>
+                  1,000's of Templates <br>
+                  Blog Support Tools <br>
+                  eCommerce Store <br>
+              </h4>
+
+              <button type="button" class="btn btn_cp">Subscribe for free</button>
+              <button type="button" class="btn btn_cp">or start 14 days Trail</button>
+
+
+            </div>      
+          </div>
+
+        </div>
+      </div>
+    
+
+
+
+
+  </div>
+ 
+</div>
+   
+
+
     </div>
-  </section>
+</section>
 
 <!-- Pricing End -->
 
@@ -674,7 +764,7 @@
     <div class="container">
       <div class="row ">
         <div class="col-lg-12 text-center">
-          <a href="index.html"><img src="images/logo.png" class="img-fluid f_logo hoverr"  alt="applab"></a>
+            <a href="index.html"><img src="images/logo.png" class="img-fluid f_logo hoverr"  alt="applab"></a>
         </div>
       </div>
 
@@ -682,14 +772,14 @@
       <div class="row">
         <div class="col-lg-12 d-sm-block d-none text-center">
 
-          <div class="f_menu">
+          <div class="f_menu ">
             
             <ul class="list-unstyled">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Key Feayures</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Testimonial</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#keyfeatures">Key Feayures</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#faq">FAQ</a></li>
           </ul>
 
           </div>
