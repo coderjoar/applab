@@ -30,6 +30,7 @@
 	.b_text h1 {
 	    font-size: 30px;
 	    margin-bottom: 20px;
+	    margin-top: 50px;
 	}
 
 	.b_text p {
@@ -91,6 +92,12 @@
 	    text-align: center;
 	}
 
+	.ppink {
+	    font-size: 16px;
+	    font-weight: 400;
+	    margin-bottom: 40px;
+	}
+
 	.h_cap {
 	    font-size: 26px;
 	}
@@ -107,7 +114,7 @@
 
 	.key {
 
-	    padding-top: 40px;
+	    padding-top: 10px;
 	}
 
 	/*learn*/
@@ -132,6 +139,10 @@
 
 	/*pricing*/
 
+	.pricing {
+	    padding-top: 50px;
+	}
+
 	.top p {
 	    margin-bottom: 50px;
 	}
@@ -141,7 +152,7 @@
 	}
 
 	.btn_ccc {
-	    margin-bottom: 40px;
+	    margin-bottom: 20px;
 	    width: 120px;
 	    height: 42px;
 	}
@@ -154,6 +165,10 @@
 	    margin-right: 0px;
 	    width: 180px;
 	    height: 42px;
+	}
+
+	.nb {
+	    margin-left: 87px;
 	}
 
 	h4 {
@@ -252,7 +267,7 @@
 	}
 
 	.h_cap {
-	    font-size: 26px;
+	    font-size: 23px;
 	    margin-bottom: 10px;
 	}
 
@@ -401,7 +416,7 @@
 
 	.btn_cp {
 	    margin-right: 20px;  
-	    width: 150px;
+	    width: 180px;
 	    height: 52px;
 	}
 
@@ -409,6 +424,11 @@
 	    font-size: 16px;
 	    font-weight: 400;
 	    line-height: 45px;
+	}
+
+
+	.nb {
+	    margin-left: 104px;
 	}
 
 	/*testimonial*/
@@ -621,6 +641,11 @@
 	    line-height: 45px;
 	}
 
+
+	.nb {
+	    margin-left: 196px;
+	}
+
 	/*testimonial*/
 
 
@@ -758,6 +783,11 @@
 		margin-top: 80px;
 	}
 
+
+	.nb {
+	    margin-left: 75px;
+	}
+
 	/*testimonial*/
 
 	.cidd2 {
@@ -809,13 +839,20 @@
 	    left: 418px;
 	    
 	}
+
+
+	/*pricing*/
+
+	.nb {
+	    margin-left: 121px;
+	}
 		
 
 
 }
-/*Extra Extra large devices (larger desktops, 1400px and up)
+/*Extra Extra large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) and (max-width: 1699.98px) {}
-/*Custom large devices (larger desktops, 1400px and up)
+/*Custom large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1700px) and (max-width: 1999.98px) {}
 /*custom large devices (larger desktops, 1400px and up)*/
 @media (min-width: 2000px) {}
